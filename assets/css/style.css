@@ -1,0 +1,79 @@
+.icono-svg {
+  width: 3rem;
+  height: 3rem;
+}
+
+.navbar {
+  background-color: transparent !important;
+  position: absolute;
+  width: 100%;
+  z-index: 1001;
+}
+
+.icono-parrafo {
+  color: #ffffff;
+}
+.fondo-icono {
+  background-color: #0dcaf0;
+  padding: 20px 0;
+}
+.fondo-color {
+  background-color: #000000;
+
+}
+.margen-pag {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  
+  @media (max-width: 768px) {
+    .margen-pag {
+        padding-left: 0.5rem;
+        padding-right:  0.5rem;
+    }
+}
+
+  .tama-parra {
+    width: 100rem; 
+    height: 10rem;
+
+
+  }
+
+
+  .fondo-color .col {
+    text-align: center;
+}
+
+
+.footer-icon {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-right: 1rem;
+}
+.tipo-fuente {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.tipo-fuente4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.fondo-cartas {
+  background-color: #0dcaf0;
+}
+
+.popup {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
